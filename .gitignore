@@ -1,0 +1,9 @@
+# 公开版：运行时产生的日志、截图、账号设置都不入库（里面有昵称和别的玩家的画面）
+__pycache__/
+*.pyc
+logs/
+shots/
+# adb 不随仓库分发，start.bat 会自动去 MuMu 安装目录里找
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
